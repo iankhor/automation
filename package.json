@@ -5,6 +5,11 @@
   "repository": "https://github.com/iankhor/automation.git",
   "license": "MIT",
   "dependencies": {
+    "cypress": "^12.17.3",
     "express": "^4.18.2"
+  },
+  "scripts": {
+    "automation:gui": "cypress open",
+    "automation:start": "docker compose up"
   }
 }
