@@ -1,3 +1,5 @@
+![Automation](https://github.com/iankhor/automation/actions/workflows/automation.yml/badge.svg)
+
 # automation
 
 ![](/docs/demo.gif)
