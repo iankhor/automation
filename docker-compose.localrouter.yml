@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  localrouter:
+    container_name: localrouter
+    image: nginx
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/templates:/etc/nginx/templates
+    ports:
+      - 443:443
+    restart: always
