@@ -9,7 +9,7 @@ context("API Test", () => {
   it("GET /api", () => {
     cy.request("GET", "http://localrouter/api").then((response) => {
       expect(response.status).to.eq(200)
-      expect(response.body).to.eq("this is /api")
+      expect(response.body).to.eq("this is /api2")
     })
   })
 })
